@@ -1,0 +1,33 @@
+{
+  "name": "PowerShell",
+  "image": "mcr.microsoft.com/powershell:lts-debian-11",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": "true",
+      "username": "vscode",
+      "upgradePackages": "false",
+      "nonFreePackages": "true"
+    }
+  },
+  "postCreateCommand": "sudo chsh vscode -s \"$(which pwsh)\"",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "pwsh"
+      },
+      "extensions": [
+        "ms-vscode.powershell",
+        "EditorConfig.EditorConfig",
+        "redhat.vscode-yaml",
+        "streetsidesoftware.code-spell-checker",
+        "github.vscode-github-actions",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "VisualStudioExptTeam.vscodeintellicode-completions",
+        "DavidAnson.vscode-markdownlint",
+        "Gruntfuggly.todo-tree",
+        "shardulm94.trailing-spaces"
+      ]
+    }
+  }
+}
