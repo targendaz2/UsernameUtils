@@ -10,7 +10,7 @@
 * First: john
 * Initials: js7, js15
 
-### Duplicate Handling Options
+### Conflict Resolution Options
 
 * Increasing number: john.smith, john.smith1, john.smith2
 * Add last name: john, johns, johnsm, johnsmi

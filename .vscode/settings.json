@@ -3,7 +3,8 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[powershell]": {
-    "editor.defaultFormatter": "ms-vscode.powershell"
+    "editor.defaultFormatter": "ms-vscode.powershell",
+    "editor.semanticHighlighting.enabled": false
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
