@@ -1,9 +1,20 @@
 {
   "version": "0.2",
-  "ignorePaths": [".devcontainer/"],
+  "ignorePaths": [
+    ".devcontainer/"
+  ],
   "dictionaryDefinitions": [],
   "dictionaries": [],
-  "words": ["devcontainer", "devcontainers"],
-  "ignoreWords": [],
+  "words": [
+    "devcontainer",
+    "devcontainers"
+  ],
+  "ignoreWords": [
+    "johnsm",
+    "johnsmi",
+    "johnsmit",
+    "johnsmith",
+    "jsmith"
+  ],
   "import": []
 }

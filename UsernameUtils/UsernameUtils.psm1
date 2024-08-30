@@ -3,6 +3,9 @@ function New-Username(
     [string]$FirstName,
     [Parameter(Mandatory)]
     [string]$LastName,
+    [string]$Format,
+    [string[]]$DuplicateMethod,
+    [string[]]$Limitations,
     [int]$DuplicateCount = 0
 ) {
     $Part1 = $FirstName.Substring(0, [Math]::Min($FirstName.Length, 1))
